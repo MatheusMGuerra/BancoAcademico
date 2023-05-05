@@ -1,0 +1,353 @@
+2023-05-04 20:32:38,645 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-04 20:50:37,252 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projetobanco:bancoOnline:0.0.1-SNAPSHOT @ C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\pom.xml.
+2023-05-04 20:50:43,389 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bancoOnline/src/main/java
+2023-05-04 20:50:43,390 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bancoOnline/src/main/resources
+2023-05-04 20:50:43,403 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bancoOnline/src/main/resources
+2023-05-04 20:50:43,420 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bancoOnline/src/test/java
+2023-05-04 20:50:52,525 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 20 sec
+2023-05-04 20:50:54,917 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-05-04 20:50:54,938 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-05-04 20:50:54,945 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:10:05,404 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-05-04 21:10:05,998 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projetobanco:bancoOnline:0.0.1-SNAPSHOT @ C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\pom.xml.
+2023-05-04 21:10:07,127 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bancoOnline/src/main/java
+2023-05-04 21:10:07,128 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bancoOnline/src/main/resources
+2023-05-04 21:10:07,131 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bancoOnline/src/main/resources
+2023-05-04 21:10:07,133 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bancoOnline/src/test/java
+2023-05-04 21:10:07,880 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2023-05-04 21:10:08,419 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-05-04 21:10:08,449 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-05-04 21:10:08,456 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:11:22,374 [Worker-24: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projetobanco:bancoOnline:0.0.1-SNAPSHOT @ C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\pom.xml.
+2023-05-04 21:11:26,093 [Worker-24: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:11:26,097 [Worker-24: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:11:26,097 [Worker-24: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:11:26,102 [Worker-24: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:11:26,103 [Worker-24: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:11:26,162 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-05-04 21:11:27,750 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.projetobanco:bancoOnline:0.0.1-SNAPSHOT @ C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\pom.xml.
+2023-05-04 21:11:29,212 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bancoOnline/src/main/java
+2023-05-04 21:11:29,212 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bancoOnline/src/main/resources
+2023-05-04 21:11:29,213 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bancoOnline/src/main/resources
+2023-05-04 21:11:29,214 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bancoOnline/src/test/java
+2023-05-04 21:11:30,061 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 1,00 sec 
+2023-05-04 21:11:31,147 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:11:31,148 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:11:31,175 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:11:31,182 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:11:31,182 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:30:55,820 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:30:55,853 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:30:55,857 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:30:55,863 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:30:55,863 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:31:04,828 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:31:04,830 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:31:04,833 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:31:04,838 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:31:04,838 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:32:16,289 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:32:16,291 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:32:16,294 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:32:16,299 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:32:16,300 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:32:34,020 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:32:34,022 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:32:34,025 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:32:34,031 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:32:34,031 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:38:14,110 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:38:14,111 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:38:14,120 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:38:14,126 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:38:14,126 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:38:43,817 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:38:43,819 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:38:43,822 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:38:43,828 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:38:43,829 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:38:54,387 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:38:54,389 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:38:54,392 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:38:54,415 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:38:54,416 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:39:41,531 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:39:41,533 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:39:41,537 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:39:41,542 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:39:41,543 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:41:50,003 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:41:50,005 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:41:50,012 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:41:50,048 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:41:50,049 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:56:34,295 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:56:34,297 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:56:34,299 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:56:34,304 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:56:34,304 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:56:36,611 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:56:36,615 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:56:36,620 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:56:36,629 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:56:36,629 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 21:59:00,175 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:59:00,177 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 21:59:00,180 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 21:59:00,186 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 21:59:00,187 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 22:03:39,683 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 22:03:39,685 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 22:03:39,688 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 22:03:39,693 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 22:03:39,693 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 22:11:53,423 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 22:11:53,451 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 22:11:53,454 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 22:11:53,461 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 22:11:53,461 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 22:13:04,559 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 22:13:04,567 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 22:13:04,651 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 22:13:04,665 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 22:13:04,669 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 22:16:25,978 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 22:16:25,978 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 22:16:25,979 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 22:16:25,999 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 22:16:25,999 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 23:23:29,056 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:23:29,058 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:23:29,063 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:23:29,068 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:23:29,069 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 23:27:31,236 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:27:31,238 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:27:31,242 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:27:31,252 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:27:31,252 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 23:35:11,389 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:35:11,391 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:35:11,395 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:35:11,400 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:35:11,401 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 23:35:30,533 [Worker-75: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:35:30,537 [Worker-75: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:35:30,587 [Worker-75: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:35:30,647 [Worker-75: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:35:30,647 [Worker-75: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 23:47:15,637 [Worker-77: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:47:15,638 [Worker-77: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 23:47:15,639 [Worker-77: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:47:15,654 [Worker-77: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:47:15,655 [Worker-77: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 23:48:15,706 [Worker-77: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:48:15,707 [Worker-77: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 23:48:15,708 [Worker-77: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:48:15,717 [Worker-77: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:48:15,718 [Worker-77: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-04 23:53:08,544 [Worker-78: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:53:08,548 [Worker-78: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 23:53:08,549 [Worker-78: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 23:53:08,557 [Worker-78: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-04 23:53:08,566 [Worker-78: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 00:00:16,548 [Worker-88: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:00:16,549 [Worker-88: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:00:16,550 [Worker-88: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:00:16,565 [Worker-88: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:00:16,565 [Worker-88: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 00:07:45,539 [Worker-89: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:07:45,540 [Worker-89: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:07:45,545 [Worker-89: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:07:45,554 [Worker-89: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:07:45,554 [Worker-89: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 00:10:07,501 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:10:07,501 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:10:07,502 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:10:07,508 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:10:07,508 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 00:10:36,014 [Worker-90: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:10:36,015 [Worker-90: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:10:36,017 [Worker-90: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:10:36,031 [Worker-90: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:10:36,032 [Worker-90: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 00:11:42,794 [Worker-89: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:11:42,797 [Worker-89: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:11:42,799 [Worker-89: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:11:42,818 [Worker-89: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:11:42,818 [Worker-89: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 00:15:12,249 [Worker-98: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:15:12,250 [Worker-98: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:15:12,251 [Worker-98: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:15:12,264 [Worker-98: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:15:12,265 [Worker-98: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 00:17:44,727 [Worker-102: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:17:44,728 [Worker-102: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:17:44,729 [Worker-102: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:17:44,742 [Worker-102: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:17:44,742 [Worker-102: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 00:23:10,987 [Worker-106: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:23:10,988 [Worker-106: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:23:10,989 [Worker-106: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:23:11,003 [Worker-106: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:23:11,004 [Worker-106: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 00:29:01,351 [Worker-102: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:29:01,354 [Worker-102: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-05 00:29:01,356 [Worker-102: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:29:01,366 [Worker-102: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:29:01,366 [Worker-102: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 00:32:43,543 [Worker-116: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:32:43,545 [Worker-116: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:32:43,549 [Worker-116: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 00:32:43,554 [Worker-116: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 00:32:43,555 [Worker-116: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 10:35:50,064 [Worker-135: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 10:35:50,067 [Worker-135: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 10:35:50,075 [Worker-135: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 10:35:50,080 [Worker-135: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 10:35:50,080 [Worker-135: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 10:40:34,445 [Worker-140: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 10:40:34,447 [Worker-140: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 10:40:34,451 [Worker-140: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 10:40:34,468 [Worker-140: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 10:40:34,468 [Worker-140: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 10:46:10,739 [Worker-140: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 10:46:10,741 [Worker-140: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 10:46:10,745 [Worker-140: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 10:46:10,750 [Worker-140: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 10:46:10,750 [Worker-140: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 11:11:05,543 [Worker-147: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:11:05,545 [Worker-147: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:11:05,549 [Worker-147: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:11:05,554 [Worker-147: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:11:05,554 [Worker-147: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 11:12:19,555 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:12:19,557 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:12:19,562 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:12:19,567 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:12:19,568 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 11:12:34,206 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:12:34,208 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:12:34,212 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:12:34,217 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:12:34,217 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 11:12:41,393 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:12:41,395 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:12:41,397 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:12:41,400 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:12:41,400 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 11:36:59,720 [Worker-157: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:36:59,722 [Worker-157: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:36:59,726 [Worker-157: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:36:59,734 [Worker-157: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:36:59,734 [Worker-157: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 11:41:26,023 [Worker-164: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:41:26,025 [Worker-164: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:41:26,028 [Worker-164: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:41:26,033 [Worker-164: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:41:26,034 [Worker-164: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 11:44:11,809 [Worker-157: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:44:11,812 [Worker-157: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:44:11,815 [Worker-157: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:44:11,820 [Worker-157: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:44:11,821 [Worker-157: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 11:47:01,542 [Worker-165: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:47:01,545 [Worker-165: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:47:01,551 [Worker-165: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:47:01,559 [Worker-165: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:47:01,560 [Worker-165: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 11:54:35,789 [Worker-176: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:54:35,790 [Worker-176: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:54:35,793 [Worker-176: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 11:54:35,798 [Worker-176: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 11:54:35,798 [Worker-176: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 12:01:50,761 [Worker-179: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:01:50,763 [Worker-179: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:01:50,766 [Worker-179: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:01:50,770 [Worker-179: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:01:50,770 [Worker-179: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 12:03:36,769 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:03:36,772 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:03:36,775 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:03:36,780 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:03:36,780 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 12:04:13,475 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:04:13,478 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:04:13,483 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:04:13,491 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:04:13,491 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 12:05:14,164 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:05:14,166 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:05:14,169 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:05:14,175 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:05:14,175 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 12:07:08,793 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:07:08,795 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:07:08,799 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:07:08,804 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:07:08,805 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 12:08:44,310 [Worker-179: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:08:44,313 [Worker-179: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:08:44,316 [Worker-179: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:08:44,321 [Worker-179: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:08:44,322 [Worker-179: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 12:10:16,524 [Worker-188: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:10:16,526 [Worker-188: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:10:16,530 [Worker-188: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:10:16,551 [Worker-188: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:10:16,551 [Worker-188: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 12:17:47,692 [Worker-192: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:17:47,694 [Worker-192: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:17:47,697 [Worker-192: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:17:47,702 [Worker-192: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:17:47,703 [Worker-192: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 12:25:00,862 [Worker-191: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:25:00,864 [Worker-191: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:25:00,867 [Worker-191: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:25:00,871 [Worker-191: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:25:00,872 [Worker-191: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 12:28:32,732 [Worker-197: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:28:32,734 [Worker-197: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:28:32,737 [Worker-197: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 12:28:32,743 [Worker-197: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 12:28:32,744 [Worker-197: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 14:13:11,597 [Worker-206: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 14:13:11,598 [Worker-206: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 14:13:11,601 [Worker-206: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 14:13:11,613 [Worker-206: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 14:13:11,613 [Worker-206: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 14:16:42,086 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 14:16:42,088 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 14:16:42,091 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 14:16:42,095 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 14:16:42,096 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 14:32:38,909 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 14:32:38,911 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 14:32:38,914 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 14:32:38,918 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 14:32:38,918 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 15:17:24,820 [Worker-224: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 15:17:24,822 [Worker-224: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 15:17:24,854 [Worker-224: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 15:17:24,859 [Worker-224: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 15:17:24,860 [Worker-224: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 15:24:19,757 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 15:24:19,758 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 15:24:19,762 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 15:24:19,767 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 15:24:19,768 [Worker-213: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 15:35:06,413 [Worker-227: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 15:35:06,416 [Worker-227: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 15:35:06,419 [Worker-227: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 15:35:06,424 [Worker-227: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 15:35:06,425 [Worker-227: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 15:44:50,556 [Worker-238: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 15:44:50,558 [Worker-238: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 15:44:50,561 [Worker-238: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 15:44:50,566 [Worker-238: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 15:44:50,567 [Worker-238: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources
+2023-05-05 16:17:14,455 [Worker-246: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 16:17:14,457 [Worker-246: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 16:17:14,459 [Worker-246: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-05 16:17:14,464 [Worker-246: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-05 16:17:14,464 [Worker-246: Launching bancoOnline - BancoOnlineApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matheus\Documents\Dev\BancoAcademico\bancoOnline\src\test\resources

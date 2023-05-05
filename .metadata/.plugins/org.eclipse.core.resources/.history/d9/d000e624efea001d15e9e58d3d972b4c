@@ -1,0 +1,3 @@
+ALTER TABLE conta ALTER COLUMN saldo SET DEFAULT 0.00;
+ALTER TABLE conta ADD CHECK (saldo >= 0);
+

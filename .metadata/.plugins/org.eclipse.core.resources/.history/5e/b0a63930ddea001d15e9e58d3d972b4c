@@ -1,0 +1,11 @@
+package com.projetobanco.bancoOnline.entidades;
+
+import java.math.BigDecimal;
+
+public class Conta {
+	
+	private Long numero;
+	private String agencia;
+	private BigDecimal saldo;
+	private Cliente cliente;
+}

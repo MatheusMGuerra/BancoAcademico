@@ -1,0 +1,16 @@
+ALTER TABLE conta ALTER COLUMN saldo SET DEFAULT 0.00;
+ALTER TABLE conta ADD CHECK (saldo >= 0);
+ALTER TABLE cliente MODIFY COLUMN data_nasc DATE;
+
+INSERT INTO cliente (nome, cpf, data_nascimento) 
+VALUES ('Matheus', '12345678901', '1990-01-01');
+INSERT INTO cliente (nome, cpf, data_nascimento) 
+VALUES ('Jade', '12345678902', '1990-01-01');
+INSERT INTO cliente (nome, cpf, data_nascimento) 
+VALUES ('Marcelo', '12345678903', '1990-01-01');
+
+
+INSERT INTO conta (cpf_cliente) VALUES ('12345678901');
+INSERT INTO conta (cpf_cliente) VALUES ('12345678902');
+INSERT INTO conta (cpf_cliente) VALUES ('12345678903');
+

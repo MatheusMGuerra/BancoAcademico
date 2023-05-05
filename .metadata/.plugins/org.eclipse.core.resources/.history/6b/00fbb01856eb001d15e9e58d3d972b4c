@@ -1,0 +1,9 @@
+package com.projetobanco.bancoOnline.repositorio;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.projetobanco.bancoOnline.entidades.Cliente;
+
+public interface ContaRepositorio extends JpaRepository<Cliente, String>{
+
+}

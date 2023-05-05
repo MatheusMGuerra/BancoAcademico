@@ -1,0 +1,5 @@
+package com.projetobanco.bancoOnline.repositorio;
+
+public interface ClienteRepositorio {
+
+}
