@@ -1,0 +1,76 @@
+package com.projetobanco.bancoOnline.controllers;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.projetobanco.bancoOnline.entidades.Cliente;
+import com.projetobanco.bancoOnline.entidades.Conta;
+import com.projetobanco.bancoOnline.repositorio.ClienteRepositorio;
+
+@RestController
+@RequestMapping(value = "/clientes")
+public class ClienteController {
+	
+	@Autowired
+	private ClienteRepositorio repositorio;
+	@Autowired
+	private ContaController repositorioConta;
+	
+	@GetMapping
+	public List<Cliente> FindAll(){
+		return repositorio.findAll();
+	}
+	
+	@GetMapping(value = "/{cpf}")
+	public Cliente FindByCpf(@PathVariable String cpf){
+		return repositorio.findById(cpf).get();
+	}
+	
+	@PostMapping
+	public Cliente AddCliente(@RequestBody Cliente cliente){
+		Conta conta = cliente.getConta();
+		conta.setCliente(cliente);
+		cliente.setConta(conta);
+		return repositorio.save(cliente);
+	}
+	
+	@DeleteMapping(value = "/{cpf}")
+	public void ExcluirCliente(@PathVariable String cpf) {
+		repositorio.deleteById(cpf);
+	}
+	
+	@PutMapping("/{cpf}/conta/deposito")
+	public Cliente depositar(@PathVariable String cpf, @RequestBody Cliente cliente) {
+		Conta conta = cliente.getConta();
+	    Conta contaBanco = repositorioConta.FindByNumero(cliente.getConta().getNumero());
+	    contaBanco.setSaldo(contaBanco.getSaldo() + conta.getSaldo());
+	    contaBanco.setCliente(cliente);
+	    cliente.setConta(contaBanco);  
+	    return repositorio.save(cliente);
+	}
+	
+	@PutMapping("/{cpf}/conta/saque")
+	public Cliente sacar(@PathVariable String cpf, @RequestBody Cliente cliente) {
+		Conta conta = cliente.getConta();
+	    Conta contaBanco = repositorioConta.FindByNumero(cliente.getConta().getNumero());
+	    double saque = contaBanco.getSaldo() - conta.getSaldo();
+	    if(saque >= 0) {
+	    	contaBanco.setSaldo(saque);
+	    }
+	    contaBanco.setCliente(cliente);
+	    cliente.setConta(contaBanco);  
+	    return repositorio.save(cliente);
+	}
+
+	
+}

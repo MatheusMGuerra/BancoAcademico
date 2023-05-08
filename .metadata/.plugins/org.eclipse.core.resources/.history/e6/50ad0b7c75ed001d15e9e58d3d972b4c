@@ -1,0 +1,125 @@
+package com.projetobanco.bancoOnline.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.projetobanco.bancoOnline.entidades.Cliente;
+import com.projetobanco.bancoOnline.entidades.Conta;
+import com.projetobanco.bancoOnline.repositorio.ClienteRepositorio;
+import com.projetobanco.bancoOnline.repositorio.ContaRepositorio;
+
+@RestController
+@RequestMapping(value = "/clientes")
+public class ClienteController {
+	
+	@Autowired
+	private ClienteRepositorio repositorio;
+	@Autowired
+	private ContaController repositorioConta;
+	@Autowired
+	private ContaRepositorio repositorioConta2;
+	
+	@GetMapping
+	public List<Cliente> FindAll(){
+		return repositorio.findAll();
+	}
+	
+	@GetMapping(value = "/{cpf}")
+	public Cliente FindByCpf(@PathVariable String cpf){
+		return repositorio.findById(cpf).get();
+	}
+	
+	@PostMapping
+	public Cliente AddCliente(@RequestBody Cliente cliente){
+		Conta conta = cliente.getConta();
+		conta.setCliente(cliente);
+		cliente.setConta(conta);
+		return repositorio.save(cliente);
+	}
+	
+	@DeleteMapping(value = "/{cpf}")
+	public void ExcluirCliente(@PathVariable String cpf) {
+		repositorio.deleteById(cpf);
+	}
+	
+	@PutMapping("/{cpf}/conta/deposito")
+	public ResponseEntity<Object> depositar(@PathVariable String cpf, @RequestBody Cliente cliente) {
+		if(cliente.getConta().isStatus() == true) {
+			Conta conta = cliente.getConta();
+		    Conta contaBanco = repositorioConta.FindByNumero(cliente.getConta().getNumero());
+		    contaBanco.setSaldo(contaBanco.getSaldo() + conta.getSaldo());
+		    contaBanco.setCliente(cliente);
+		    cliente.setConta(contaBanco);  
+		    return ResponseEntity.ok(cliente);
+		} else {
+			String mensagem = "Esta conta encontra-se bloqueada.";
+	        return ResponseEntity.badRequest().body(mensagem);
+		}
+	}
+	
+	@PutMapping("/{cpf}/conta/saque")
+	public ResponseEntity<Object> sacar(@PathVariable String cpf, @RequestBody Cliente cliente) {
+		if(cliente.getConta().isStatus() == true) {
+			Conta conta = cliente.getConta();
+		    Conta contaBanco = repositorioConta.FindByNumero(cliente.getConta().getNumero());
+		    double saque = contaBanco.getSaldo() - conta.getSaldo();
+		    if (saque >= 0) {
+		        contaBanco.setSaldo(saque);
+		        contaBanco.setCliente(cliente);
+		        cliente.setConta(contaBanco);
+		        repositorio.save(cliente);
+		        return ResponseEntity.ok(cliente);
+		    } else {
+		        String mensagem = "Saldo insuficiente para realizar o saque.";
+		        return ResponseEntity.badRequest().body(mensagem);
+		    }
+		} else {
+			String mensagem = "Esta conta encontra-se bloqueada.";
+	        return ResponseEntity.badRequest().body(mensagem);
+		}
+	    
+	}
+
+	
+	@PutMapping("/{cpf}/conta/bloquearConta")
+	public ResponseEntity<Object> bloquearConta(@PathVariable String cpf, @RequestBody Cliente cliente){
+	    Conta conta = cliente.getConta();
+	    if(conta.isStatus()) {
+	        conta.setStatus(false);
+	        conta.setCliente(cliente);
+	        cliente.setConta(conta);
+	        repositorioConta2.save(conta);
+	        return ResponseEntity.ok(conta);
+	    } else {
+	        String mensagem = "A conta desse cliente já está bloqueada.";
+	        return ResponseEntity.badRequest().body(mensagem);
+	    }
+	}
+	
+	@PutMapping("/{cpf}/conta/desbloquearConta")
+	public ResponseEntity<Object> desbloquearConta(@PathVariable String cpf, @RequestBody Cliente cliente){
+	    Conta conta = cliente.getConta();
+	    if(!conta.isStatus()) {
+	        conta.setStatus(true);
+	        conta.setCliente(cliente);
+	        cliente.setConta(conta);
+	        repositorioConta2.save(conta);
+	        return ResponseEntity.ok(conta);
+	    } else {
+	        String mensagem = "A conta desse cliente já está desbloqueada.";
+	        return ResponseEntity.badRequest().body(mensagem);
+	    }
+	}
+
+	
+}

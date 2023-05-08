@@ -4,12 +4,10 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.projetobanco.bancoOnline.entidades.Cliente;
 import com.projetobanco.bancoOnline.entidades.Conta;
 import com.projetobanco.bancoOnline.repositorio.ContaRepositorio;
 
@@ -24,6 +22,11 @@ public class ContaController {
 	public List<Conta> FindAll(){
 		List<Conta> resultadoQuery = repositorio.findAll();
 		return resultadoQuery;
+	}
+	
+	@GetMapping(value = "/{numero}")
+	public Conta FindByNumero(@PathVariable Long numero){
+		return repositorio.findById(numero).get();
 	}
 	
 }

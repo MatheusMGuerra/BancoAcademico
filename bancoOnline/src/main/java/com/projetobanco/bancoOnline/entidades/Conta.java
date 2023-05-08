@@ -1,7 +1,5 @@
 package com.projetobanco.bancoOnline.entidades;
 
-import java.math.BigDecimal;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Entity;
@@ -20,7 +18,7 @@ public class Conta {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long numero;
 	private String agencia;
-	private BigDecimal saldo;
+	private double saldo;
 	@OneToOne
 	@JoinColumn(name = "cpf_cliente")
 	@JsonIgnore
@@ -28,7 +26,7 @@ public class Conta {
 	private boolean status;
 	
 	public Conta() {
-			
+		this.status = true;
 	}
 	
 	public Cliente getCliente() {
@@ -56,11 +54,11 @@ public class Conta {
 		this.agencia = agencia;
 	}
 
-	public BigDecimal getSaldo() {
+	public double getSaldo() {
 		return saldo;
 	}
 
-	public void setSaldo(BigDecimal saldo) {
+	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
 

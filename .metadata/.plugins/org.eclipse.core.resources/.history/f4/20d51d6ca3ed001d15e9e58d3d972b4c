@@ -1,0 +1,41 @@
+package com.projetobanco.bancoOnline.entidades;
+
+import java.util.Date;
+
+public class Transacao {
+	    private Date data;
+	    private double valor;
+	    private String tipo;
+
+	    public Transacao(Date data, double valor, String tipo) {
+	    	this.data = data;
+	    	this.valor = valor;
+	    	this.tipo = tipo;
+	    }
+
+		public Date getData() {
+			return data;
+		}
+
+		public void setData(Date data) {
+			this.data = data;
+		}
+
+		public double getValor() {
+			return valor;
+		}
+
+		public void setValor(double valor) {
+			this.valor = valor;
+		}
+
+		public String getTipo() {
+			return tipo;
+		}
+
+		public void setTipo(String tipo) {
+			this.tipo = tipo;
+		}
+	    
+	    
+}
